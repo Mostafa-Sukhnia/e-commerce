@@ -4,11 +4,8 @@
 The E-Commerce App is an online store where users can browse products, add them to the cart, and proceed with checkout. It supports user authentication, cart management, and a simple mock API using JSON Server for product management.
 
 ## Features
-- User authentication (Signup/Login).
-- Browse and filter products.
 - Add products to the shopping cart.
 - Manage the cart (add, remove, and update product quantities).
-- Admin panel for managing products (mock functionality).
   
 ## Technologies Used
 - **Frontend**: React, Tailwind CSS, React Router, Vite
