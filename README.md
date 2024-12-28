@@ -1,27 +1,24 @@
 # E-Commerce App 🛒
 
 ## Description
-The E-Commerce App is an online store that allows users to browse products, add them to the shopping cart, and proceed with secure payment. The app features user authentication, product management, and order processing.
+The E-Commerce App is an online store where users can browse products, add them to the cart, and proceed with checkout. It supports user authentication, cart management, and a simple mock API using JSON Server for product management.
 
 ## Features
 - User authentication (Signup/Login).
 - Browse and filter products.
 - Add products to the shopping cart.
-- Secure checkout with payment integration (Stripe).
-- Order history and tracking.
-- Admin panel for managing products and orders.
-
+- Manage the cart (add, remove, and update product quantities).
+- Admin panel for managing products (mock functionality).
+  
 ## Technologies Used
-- **Frontend**: React, Tailwind CSS, React Router
-- **Backend**: Firebase Firestore (Database), Firebase Functions (For handling payments)
-- **Payment Gateway**: Stripe
-- **Hosting**: Firebase Hosting
+- **Frontend**: React, Tailwind CSS, React Router, Vite
+- **Backend**: JSON Server (Mock API)
+- **Hosting**: Local development (using Vite for fast development)
 
 ## Prerequisites
 Before you begin, make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
-- [Firebase CLI](https://firebase.google.com/docs/cli)
-- [Stripe API Key](https://stripe.com/docs/keys) (For payment integration)
+- [JSON Server](https://github.com/typicode/json-server)
 
 ## Installation
 1. Clone the repository:
